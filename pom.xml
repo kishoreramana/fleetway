@@ -115,6 +115,16 @@
 			<version>${version.jersey}</version>
 		</dependency>
 		<dependency>
+			<groupId>org.glassfish.jersey.containers</groupId>
+			<artifactId>jersey-container-servlet-core</artifactId>
+			<version>${version.jersey}</version>
+		</dependency>
+		<dependency>
+			<groupId>org.glassfish.jersey.media</groupId>
+			<artifactId>jersey-media-moxy</artifactId>
+			<version>${version.jersey}</version>
+		</dependency>
+		<dependency>
 			<groupId>org.glassfish.jersey.media</groupId>
 			<artifactId>jersey-media-json-jackson</artifactId>
 			<version>${version.jersey}</version>
@@ -171,10 +181,7 @@
 		<plugins>
 
 			<!-- TODO: Add the plug to perform the source code generation here -->
-			<!--
-			<plugin>
-			</plugin>
-			-->
+			<!-- <plugin> </plugin> -->
 
 			<plugin>
 				<artifactId>maven-resources-plugin</artifactId>
